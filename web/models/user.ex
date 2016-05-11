@@ -8,8 +8,8 @@ defmodule Stoat.User do
     timestamps
   end
 
-  @required_fields ~w(name email)
-  @optional_fields ~w()
+  @required_fields ~w(name)
+  @optional_fields ~w(email)
 
   @doc """
   Creates a changeset based on the `model` and `params`.

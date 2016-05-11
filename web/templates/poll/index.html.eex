@@ -20,7 +20,6 @@
       <td class="text-right">
         <%= link "Show", to: poll_path(@conn, :show, poll), class: "btn btn-default btn-xs" %>
         <%= link "Edit", to: poll_path(@conn, :edit, poll), class: "btn btn-default btn-xs" %>
-        <%= link "Delete", to: poll_path(@conn, :delete, poll), method: :delete, data: [confirm: "Are you sure?"], class: "btn btn-danger btn-xs" %>
       </td>
     </tr>
 <% end %>

@@ -9,8 +9,8 @@ defmodule Stoat.Poll do
     timestamps
   end
 
-  @required_fields ~w(name shortcut)
-  @optional_fields ~w()
+  @required_fields ~w(name)
+  @optional_fields ~w(shortcut)
 
   @doc """
   Creates a changeset based on the `model` and `params`.
