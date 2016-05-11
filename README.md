@@ -34,6 +34,8 @@ For a "ranked" poll, each respondent orderes the possible responses from most to
 
 An open approval poll! For this, people can add their own answers, and can vote up/down on any answer. Answers track who added them (just by name though) and then the creator can choose (at creation time only) to show or hide who added each option.
 
+# Phoenix 
+
 To start your Phoenix app:
 
   * Install dependencies with `mix deps.get`
